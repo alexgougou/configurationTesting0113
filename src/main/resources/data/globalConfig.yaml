@@ -1,0 +1,25 @@
+---
+xueqiu:
+  username: xxxx
+  password: dddd
+appium:
+  app: ""
+  url: http://127.0.0.1:4723/wd/hub
+  wait: 10
+  capabilities:
+    platformName: android
+    automationName: Appium
+    deviceName: 2a0c466c
+    appPackage: com.xueqiu.android
+    appActivity: .view.WelcomeActivityAlias
+    autoGrantPermissions: true
+    unicodeKeyboard: true
+    resetKeyboard: true
+    noReset: true
+data:
+  input:
+    - 阿里巴巴
+    - 拼多多
+    - 搜狗
+    - 搜狗
+
